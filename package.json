@@ -1,5 +1,6 @@
 {
   "name": "find-the-pairs",
+  "homepage": "https://hitman4an.github.io/find-the-pairs"
   "version": "0.1.0",
   "private": true,
   "dependencies": {
