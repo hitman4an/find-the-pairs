@@ -1,0 +1,498 @@
+ .field6
+ {
+     width: 445px;
+     margin: auto;
+ }
+
+ .field8
+ {
+    width: 600px;
+    margin: auto;
+ }
+ 
+ .field9
+ {
+    width: 700px;
+    margin: auto;
+ }
+
+ .field10
+ {
+    width: 800px;
+    margin: auto;
+ }
+
+ .field12
+ {
+    width: 890px;
+    margin: auto;
+ }
+
+[data-view="card"] {
+  transform: rotateY(180deg);
+  width: 72px;
+  height: 72px;
+  margin: 1px;
+  float: left;
+  cursor: pointer;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+
+  
+  .flipped {
+    transition: 0.2s;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: rotateY(0deg);
+  }
+  
+  .reverse {
+    transition: 0.2s;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: rotateY(180deg);
+  }
+  
+  .correct {
+    transition: 0.8s;
+    opacity: 0.2;
+    cursor: default;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: translateX(-5000%);
+  }
+  
+  /* Cards */
+  .correct[data-item="1"],
+  .flipped[data-item="1"] {
+    background: url("../img/1.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="2"],
+  .flipped[data-item="2"] {
+    background: url("../img/2.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="3"],
+  .flipped[data-item="3"] {
+    background: url("../img/3.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="4"],
+  .flipped[data-item="4"] {
+    background: url("../img/4.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="5"],
+  .flipped[data-item="5"] {
+    background: url("../img/5.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="6"],
+  .flipped[data-item="6"] {
+    background: url("../img/6.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="7"],
+  .flipped[data-item="7"] {
+    background: url("../img/7.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="8"],
+  .flipped[data-item="8"] {
+    background: url("../img/8.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="9"],
+  .flipped[data-item="9"] {
+    background: url("../img/9.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="10"],
+  .flipped[data-item="10"] {
+    background: url("../img/10.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="11"],
+  .flipped[data-item="11"] {
+    background: url("../img/11.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="12"],
+  .flipped[data-item="12"] {
+    background: url("../img/12.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="13"],
+  .flipped[data-item="13"] {
+    background: url("../img/13.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="14"],
+  .flipped[data-item="14"] {
+    background: url("../img/14.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="15"],
+  .flipped[data-item="15"] {
+    background: url("../img/15.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="16"],
+  .flipped[data-item="16"] {
+    background: url("../img/16.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="17"],
+  .flipped[data-item="17"] {
+    background: url("../img/17.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="18"],
+  .flipped[data-item="18"] {
+    background: url("../img/18.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="19"],
+  .flipped[data-item="19"] {
+    background: url("../img/19.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="20"],
+  .flipped[data-item="20"] {
+    background: url("../img/20.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="21"],
+  .flipped[data-item="21"] {
+    background: url("../img/21.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="22"],
+  .flipped[data-item="22"] {
+    background: url("../img/22.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="23"],
+  .flipped[data-item="23"] {
+    background: url("../img/23.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="24"],
+  .flipped[data-item="24"] {
+    background: url("../img/24.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="25"],
+  .flipped[data-item="25"] {
+    background: url("../img/25.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="26"],
+  .flipped[data-item="26"] {
+    background: url("../img/26.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="27"],
+  .flipped[data-item="27"] {
+    background: url("../img/27.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="28"],
+  .flipped[data-item="28"] {
+    background: url("../img/28.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="29"],
+  .flipped[data-item="29"] {
+    background: url("../img/29.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="30"],
+  .flipped[data-item="30"] {
+    background: url("../img/30.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="31"],
+  .flipped[data-item="31"] {
+    background: url("../img/31.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="32"],
+  .flipped[data-item="32"] {
+    background: url("../img/32.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="33"],
+  .flipped[data-item="33"] {
+    background: url("../img/33.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="34"],
+  .flipped[data-item="34"] {
+    background: url("../img/34.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="35"],
+  .flipped[data-item="35"] {
+    background: url("../img/35.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="36"],
+  .flipped[data-item="36"] {
+    background: url("../img/36.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="37"],
+  .flipped[data-item="37"] {
+    background: url("../img/37.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="38"],
+  .flipped[data-item="38"] {
+    background: url("../img/38.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="39"],
+  .flipped[data-item="39"] {
+    background: url("../img/39.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="40"],
+  .flipped[data-item="40"] {
+    background: url("../img/40.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="41"],
+  .flipped[data-item="41"] {
+    background: url("../img/41.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="42"],
+  .flipped[data-item="42"] {
+    background: url("../img/42.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="43"],
+  .flipped[data-item="43"] {
+    background: url("../img/43.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="44"],
+  .flipped[data-item="44"] {
+    background: url("../img/44.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="45"],
+  .flipped[data-item="45"] {
+    background: url("../img/45.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="46"],
+  .flipped[data-item="46"] {
+    background: url("../img/46.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="47"],
+  .flipped[data-item="47"] {
+    background: url("../img/47.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="48"],
+  .flipped[data-item="48"] {
+    background: url("../img/48.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="49"],
+  .flipped[data-item="49"] {
+    background: url("../img/49.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="50"],
+  .flipped[data-item="50"] {
+    background: url("../img/50.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="51"],
+  .flipped[data-item="51"] {
+    background: url("../img/51.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="52"],
+  .flipped[data-item="52"] {
+    background: url("../img/52.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="53"],
+  .flipped[data-item="53"] {
+    background: url("../img/53.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="54"],
+  .flipped[data-item="54"] {
+    background: url("../img/54.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="55"],
+  .flipped[data-item="55"] {
+    background: url("../img/55.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="56"],
+  .flipped[data-item="56"] {
+    background: url("../img/56.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="57"],
+  .flipped[data-item="57"] {
+    background: url("../img/57.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="58"],
+  .flipped[data-item="58"] {
+    background: url("../img/58.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="59"],
+  .flipped[data-item="59"] {
+    background: url("../img/59.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="60"],
+  .flipped[data-item="60"] {
+    background: url("../img/60.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="61"],
+  .flipped[data-item="61"] {
+    background: url("../img/61.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="62"],
+  .flipped[data-item="62"] {
+    background: url("../img/62.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="63"],
+  .flipped[data-item="63"] {
+    background: url("../img/63.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="64"],
+  .flipped[data-item="64"] {
+    background: url("../img/64.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="65"],
+  .flipped[data-item="65"] {
+    background: url("../img/65.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="66"],
+  .flipped[data-item="66"] {
+    background: url("../img/66.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="67"],
+  .flipped[data-item="67"] {
+    background: url("../img/67.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="68"],
+  .flipped[data-item="68"] {
+    background: url("../img/68.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="69"],
+  .flipped[data-item="69"] {
+    background: url("../img/69.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="70"],
+  .flipped[data-item="70"] {
+    background: url("../img/70.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="71"],
+  .flipped[data-item="71"] {
+    background: url("../img/71.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="72"],
+  .flipped[data-item="72"] {
+    background: url("../img/72.png") left center no-repeat;
+    background-size: contain;
+  }
