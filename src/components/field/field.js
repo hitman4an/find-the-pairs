@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import './field.css';
+import { setTimeout } from 'timers';
 
 export default class Field extends Component {
 
@@ -11,7 +12,9 @@ blockInput = false;
 onStartGame = (e) => {
     e.preventDefault();
     const { curTime } = this.props;
+    this.clearClass();
     this.props.startStopGame(curTime);
+    
 }
 
 
@@ -90,14 +93,28 @@ checkImage = (e) => {
         
         // Увеличиваем счетчик найденных картинок и проверяем кол-во
         this.counter++;
-            if(this.counter === this.props.endCount) {
-                alert("You won!!!");
-                this.props.startStopGame(this.props.curTime);              
+            if(this.counter === 1) {
+                this.props.startStopGame('0:00:00');
+                this.clearClass();
+                alert("You won!!!")                           
             }
         this.resultsArray = [];
     }
 
        
+}
+
+
+// Очищаем классы перед созданием нового поля
+clearClass() {
+    const x = document.getElementsByClassName('correct');
+    console.log(x);
+
+    setTimeout(() => {
+        for (let i = (x.length-1); i>=0; i--) 
+            x[i].className = 'reverse';
+    }, 1000);
+    
 }
 
 

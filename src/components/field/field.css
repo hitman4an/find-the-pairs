@@ -1,37 +1,37 @@
  .field6
  {
-     width: 445px;
+     width: 340px;
      margin: auto;
  }
 
  .field8
  {
-    width: 600px;
+    width: 450px;
     margin: auto;
  }
  
  .field9
  {
-    width: 700px;
+    width: 510px;
     margin: auto;
  }
 
  .field10
  {
-    width: 800px;
+    width: 560px;
     margin: auto;
  }
 
  .field12
  {
-    width: 890px;
+    width: 690px;
     margin: auto;
  }
 
 [data-view="card"] {
   transform: rotateY(180deg);
-  width: 72px;
-  height: 72px;
+  width: 54px;
+  height: 54px;
   margin: 1px;
   float: left;
   cursor: pointer;

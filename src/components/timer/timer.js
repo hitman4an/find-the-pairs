@@ -7,15 +7,9 @@ export default class Timer extends Component {
     }
 
     componentDidMount() {
-        this.setState({curTime: this.props.pausedTime}, () => {
         if (this.props.timer) this.Interval = setInterval(this.startTimer, 10);
         else clearInterval(this.Interval);
-        });
-    }
-
-    componentWillUnmount() {
-        this.props.newPausedTime(this.state.curTime);
-    }
+        }
 
     startTimer = () => {       
         

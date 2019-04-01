@@ -12,24 +12,18 @@ class App extends Component {
     blocks : "8", // Размер поля
     tokens : "2", // Количество одинаковых картинок
     buttonTitle: 'Начать игру', // Название кнопки
-    pausedTime: '0:00:00', // Время паузы
   }
 
   // Начало игры или пауза
   startStopGame = () => {
     let title;
     if (this.state.buttonTitle === 'Начать игру') 
-      title = 'Пауза'
+      title = 'Стоп'
     else title = 'Начать игру';
 
     this.setState({gameOn : !this.state.gameOn,
                   buttonTitle: title,
               });
-  }
-
-  // Записываем время паузы
-  setPausedTime = (pausedTime) => {
-    this.setState({pausedTime});
   }
 
   changeField = (name, value) => {
@@ -64,7 +58,7 @@ class App extends Component {
 
     console.log(this.state.blocks);
 
-    const {gameOn, blocks, tokens, buttonTitle, pausedTime} = this.state;
+    const {gameOn, blocks, tokens, buttonTitle} = this.state;
 
     // Количество пар
     const endCount = Math.pow(blocks, 2)/tokens
@@ -74,13 +68,11 @@ class App extends Component {
 
     // Если игра началась, отрисовываем таймер
     if (gameOn) {
-      timer = <Timer timer={gameOn} pausedTime={pausedTime}
-      newPausedTime={this.setPausedTime}/>;
+      timer = <Timer timer={gameOn}/>;
       header = <h2>Игра началась!</h2>      
     }
-    // Иначе отрисовываем время паузы и настройки  
+    // Иначе отрисовываем настройки  
     else {
-      timer = <p>Время: {pausedTime}</p>
       header = <AppHeader 
                 onChangeField={this.changeField} blocks={blocks} tokens={tokens}/>;
     }
