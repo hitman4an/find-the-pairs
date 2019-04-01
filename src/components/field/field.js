@@ -93,7 +93,7 @@ checkImage = (e) => {
         
         // Увеличиваем счетчик найденных картинок и проверяем кол-во
         this.counter++;
-            if(this.counter === 1) {
+            if(this.counter === this.props.endCount) {
                 this.props.startStopGame('0:00:00');
                 this.clearClass();
                 alert("You won!!!")                           
